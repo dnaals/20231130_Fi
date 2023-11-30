@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+/*Prociono 글꼴*/
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+/*프리텐다드 글꼴*/
+* {
+    box-sizing: border-box;
+
+}
+
+a {
+    color: #58412A;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header,
+main {
+    width: 1536px;
+    margin: 0 auto;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header>h1 {
+    font-family: 'Prociono', serif;
+}
+
+header>nav {
+    justify-content: space-evenly;
+    font-weight: 700;
+    line-height: 16px;
+    font-family: 'pretendard';
+}
+
+
+
+header>nav>a {
+    padding: 0 50px;
+    text-decoration: none;
+}
+
+
+
+.spot {
+    width: 100%;
+    height: 626px;
+    background: url("../img/맨위배경사진.png") 0 0 / cover no-repeat;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #5E452D;
+    
+}
+
+.spot:hover>b{
+    letter-spacing: 10px;
+}
+
+.spot>b {
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 87px;
+    font-family: 'Prociono';
+    transition: 2s;
+}
+
+/* 나중에 REVIV 쪽 문구 꾸미기 */
+.spot>p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    font-family: 'Pretendard';
+}
+
+/* 나중에 푸른마다쪽 문구 꾸미기 */
+
+.product {
+    margin: 120px 0;
+    font-family: 'Prociono';
+    color: #58412A;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.product>h3 {
+    color: #58412A;
+    font-family: 'Prociono';
+}
+
+.product_content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.span1 {
+    color: #5E452D;
+    font-family: 'Prociono';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 87px;
+}
+
+.span2 {
+    color: #58412A;
+    font-family: 'Pretendard';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.product_content1 {
+    width: 23%;
+}
+
+.product_content1>p>img {
+    width: 100%;
+}
+
+.product_content1>p {}
+
+.product_content1>p:nth-child(1) {}
+
+.product_content1>p:nth-child(2) {
+    opacity: 0;
+    transition: 1s;
+    background-color: beige;
+    width: 23%;
+    height: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+}
+
+.product_content1:hover>p {
+    opacity: 1;
+}
+
+.product02 {
+    display: flex;
+    justify-content: space-between;
+    margin: 110px 0;
+}
+
+.product02_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.product02_content>h2 {
+    font-size: 52px;
+    color: #58412A;
+    font-family: 'Prociono';
+    font-weight: 400;
+    line-height: 87px;
+}
+
+.product02_content>b {
+    color: #58412A;
+    font-family: 'Pretendard';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    
+}
+
+.product02_content>p {
+    color: #58412A;
+    font-family: 'Pretendard';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 41px;
+}
+
+.product02_content>a {
+    color: #58412A;
+    font-family: 'Prociono';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 87px;
+    width:30%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEE7E1;
+    width: 100%;
+}
+
+.info_content00 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0 0 30px 100px;
+}
+
+.info_content00>h3 {
+    color: #58412A;
+    font-family: 'Prociono';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.info_content00>p {
+    color: #58412A;
+    font-family: 'Prociono';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.info_box {
+    color: #58412A;
+    display: flex;
+    font-family: 'Prociono';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.info_box>div {
+    padding: 50px;
+}
